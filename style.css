@@ -1,0 +1,124 @@
+@font-face {
+    font-family: 'Glusp';
+    src: 
+        url('otf_glusp-webfont.woff')
+        format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Project Space';
+    src: 
+    url('project_space-webfont.woff')
+    format('woff');
+    font-weight: normal;
+    font-style:normal;
+}
+
+
+@font-face {
+    font-family: 'akrobat';
+    src:
+    url('akrobat-black-webfont.woff')
+    format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+h1 {
+    font-family: 'Glusp';
+    color:#9f79d9;
+    letter-spacing: 2px;
+}
+
+body {
+    background-color: #110018; 
+}
+
+#intro {
+    text-align: center;
+    padding: 100px;
+    font-size: 80px;
+}
+
+p {
+    color: #756888;
+    font-family: 'akrobat';
+    text-shadow: 2px;
+    font-weight: bold;
+}
+
+
+/* neon effect */
+.neon h1 {
+    margin: 1rem auto;
+    animation: neon 3s ease infinite;
+}
+
+@keyframes neon {
+    0%,
+    100% {
+        text-shadow: 
+        0 0 10px #ab84e5, 
+        0 0 20px #9f79d9, 
+        0 0 20px #ab84e5,
+        0 0 2px #ab84e5,
+        2px 2px 2px #ab84e5;
+        color: #ab84e5;
+    }
+    50% {
+        text-shadow: 
+        0 0 2px #ab84e5,
+        0 0 5px #ab84e5,
+        0 0 5px #ab84e5,
+        0 0 5px #ab84e5,
+        0 0 2px #ab84e5,
+        4px 4px 2px #ab84e5;
+    }
+}
+
+#about-me {
+    text-align: left;
+    padding: 250px;
+    line-height: 40px;
+    
+
+}
+
+h3 {
+    font-family: 'Glusp';
+    color: #ab84e5;
+    font-size: 50px;
+
+    
+}
+
+a {
+    display: none;
+}
+
+#about-me p {
+    line-height: 30px;
+    font-size: 24px;
+}
+
+u {
+    font-size: 36px;
+    color: #9f79d9;
+}
+
+#experience {
+    text-align: right;
+    padding: 50px;
+    margin-right: 50px;
+}
+
+#experience p {
+    line-height: 35px;
+    font-size: 24px;
+}
+
+em {
+    font-size: 35px;
+    color: #9f79d9;
+}
